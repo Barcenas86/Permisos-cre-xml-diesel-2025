@@ -3,14 +3,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/permiso.js",
+      "src": "api/*.js",
       "use": "@vercel/node"
     }
   ],
   "functions": {
-    "api/permiso.js": {
-      "maxDuration": 60,
-      "memory": 1024
+    "api/*.js": {
+      "memory": 3009,
+      "maxDuration": 30
     }
   },
   "rewrites": [
