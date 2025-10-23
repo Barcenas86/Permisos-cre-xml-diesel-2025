@@ -1,4 +1,5 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "builds": [
     {
@@ -17,6 +18,5 @@
       "source": "/",
       "destination": "/api/index"
     }
-  ],
-  "__comment": "Se agregó un cambio menor para forzar el despliegue en Vercel"
+  ]
 }
