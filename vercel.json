@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/permiso.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "functions": {
+    "api/permiso.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/index"
+    }
+  ],
+  "__comment": "Se agregó un cambio menor para forzar el despliegue en Vercel"
+}

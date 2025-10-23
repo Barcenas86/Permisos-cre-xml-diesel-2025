@@ -1,0 +1,19 @@
+{
+  "name": "verificador-cre-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./local-dev.js",
+    "start": "node ./local-dev.js"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^22.15.0",
+    "p-retry": "^6.2.0",
+    "p-timeout": "^6.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
